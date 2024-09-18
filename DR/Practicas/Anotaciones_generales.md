@@ -20,7 +20,7 @@ Os traballos entreganse por parexas.
 
 
 ## Configuracións generales do OmNet
-
+**CONTRASEÑA DA MÁQUINA:** us3r
 A lanzar na terminal da VM: 
 ```bash
 sudo apt install libavcodec-dev libavformat-dev
