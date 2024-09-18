@@ -15,3 +15,10 @@ Os traballos entreganse por parexas.
   - Además, puede ser necesario desactivar la opción de integridad de memoria en Windows Security > Device Security > Core Isolation
 
 Configuracións generales do OmNet
+
+A lanzar na terminal da VM: 
+```bash
+sudo apt install libavcodec-dev libavformat-dev
+```
+
+En propiedades do proyecto, OMNET, project features activar as dúas Voice over Ip ...
