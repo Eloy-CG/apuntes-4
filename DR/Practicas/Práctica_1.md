@@ -12,7 +12,7 @@ Nos analisis temos todos os vectores cas medicións da simulación, como se cham
 Unha das cousas que se piden na práctica un:
   - Generar as gráficas con e sin QoS da longitud das colas. Pegar a gráfica na memoria e explicar porque a gráfica é así
 
-** Recomendacións: ** 
+**Recomendacións:** 
   - Calquer gráfica que uses mellor importala a .svg para si se quere ampliar que non perda calidad ou en pdf no seu defecto.
   - No engranaje que hai nas gráficas pódense configurar as gráficas para (con regex) alterar as leyendas
     - Exemplo: /.*efQueue./ColaEf/   
