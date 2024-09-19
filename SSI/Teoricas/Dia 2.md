@@ -65,14 +65,20 @@ Programa gratuito e open-source para aprender criptografía e criptoanálisis. P
 
 
   Crease a matriz insertnado unha clave e completando co abecedario sin a clave. Despois tomanse os carácteres de dous en dous e procedese:
-  - Si m_1,m_2 na misma fila -> C_1,C_2 son os dous caracteres da dereita. Exemplo: ft -> LZ
+  a. Si m_1,m_2 na misma fila -> C_1,C_2 son os dous caracteres da dereita. Exemplo: ft -> LZ
  
   
+  b. Si m_1,m_2 na misma columna -> C_1,C_2 son os caracteres de abaixo
 
-  a. Si m_1,m_2 na misma columna -> C_1,C_2 son os caracteres de abaixo
-  b. Si m_1,m_2 en filas/columnas distintas -> C_1,C_2 son os caracteres da diagonal desde m_1
-  c. Si m_1=m_2 añádese un separador (normalmente unha X)
-  d. Si o número de carácteres é impar, añadese un caracter final (normalmente unha X) 
+
+  c. Si m_1,m_2 en filas/columnas distintas -> C_1,C_2 son os caracteres da diagonal desde m_1
+
+  
+  d. Si m_1=m_2 añádese un separador (normalmente unha X)
+
+
+  e. Si o número de carácteres é impar, añadese un caracter final (normalmente unha X) 
+
  
 O descifrado aplica as mismas reglas que o descifrado pero:
   - regla a): en lugar de sustituir por los caracteres de la derecha, se sustituyen por los de la izquierda, y
