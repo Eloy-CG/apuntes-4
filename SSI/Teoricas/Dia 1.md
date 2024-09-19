@@ -11,4 +11,7 @@ OBLIGATORIO referencias bibliográficas citadas en el texto
 DEADLINE: semana del 23 la elección y entrega MEDIADOS/FINALES NOVIEMBRE
 Se presentarán en prácticas (20 min) y es obligatorio leer el trabajo ajeno previamente
 
-\`sql
+```sql
+SELECT *
+FROM DEPT
+```
