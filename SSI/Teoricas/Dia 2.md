@@ -23,7 +23,10 @@ A criptología e a área de estudio constituida polos diferentes esquemas de cif
 
 - O algoritmo César (s I a.C.) tamén era un algoritmo de sustitución monoalfabética donde cada carácter sustituese polo que está 3 posicións despois. Exemplo:
   HOLA = OLSSV
-  Este algoritmo é facilmente codificable como: 
+  Este algoritmo é facilmente codificable como:
+
   ```E:Encrypt C=E(p)=(p+3)mod26 D:Decrypt p=D(C)=(C-3)mod26```
+
   E cun desplazamento variable: 
+
   ```E:Encrypt C=E(p)=(p+k)mod26 D:Decrypt p=D(C)=(C-k)mod26```
