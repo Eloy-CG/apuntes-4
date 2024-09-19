@@ -16,4 +16,5 @@ A criptología e a área de estudio constituida polos diferentes esquemas de cif
 
 Polybios foi o primeiro algoritmo de cifrado da historia, data do s. II a.C.
 Basicamente consiste nun algoritmo de tipo **sustitución monoalfabético**, donde cada letra sustituyese polas suas coordenadas nunha tabla:
+
 ![image](https://github.com/user-attachments/assets/1f6d43ec-dcf9-44c6-a2fb-3bf09cbc9ce6)
