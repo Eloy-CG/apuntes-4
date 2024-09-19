@@ -65,6 +65,8 @@ Programa gratuito e open-source para aprender criptografía e criptoanálisis. P
 
 
   Crease a matriz insertnado unha clave e completando co abecedario sin a clave. Despois tomanse os carácteres de dous en dous e procedese:
+
+
   a. Si m_1,m_2 na misma fila -> C_1,C_2 son os dous caracteres da dereita. Exemplo: ft -> LZ
  
   
