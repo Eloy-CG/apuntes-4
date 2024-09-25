@@ -16,6 +16,7 @@ Unha das cousas que se piden na práctica un:
   - Calquer gráfica que uses mellor importala a .svg para si se quere ampliar que non perda calidad ou en pdf no seu defecto.
   - No engranaje que hai nas gráficas pódense configurar as gráficas para (con regex) alterar as leyendas
     - Exemplo: /.*efQueue./ColaEf/
+
 **Pro tip**
   - Eliminar dentro da expresión do filtrado (engranaje das gráficas ou dos datos) a info que non sea `module` ou `name`
   - Para facer a gráfica do jitter hai que facer a diferencia en to end e multiplicar por 1000 para telo en milisegundos.
