@@ -1,5 +1,7 @@
 # Tema 1: Criptología
 
+# ALGORITMOS DE SUBSTITUCIÓN
+
 A criptología e a área de estudio constituida polos diferentes esquemas de cifrado. Podemos dividir a criptografia en 3 etapas:
 
 - Precientifica (Antiguedad - 1949)
@@ -92,3 +94,73 @@ O descifrado aplica as mismas reglas que o descifrado pero:
   sabe que es de relleno
 
   ![image](https://github.com/user-attachments/assets/378b72bc-743c-4041-867c-7f0fe32c6853)
+
+## Vigenère
+
+É un cifrado por **substitución polialfabeto** Usa diferentes series de cifrado César, basándose en letras dunha palabra clave.
+
+![image](https://github.com/user-attachments/assets/4f9b8466-f073-42b4-8d2c-99eebfd9bd69)
+
+![image](https://github.com/user-attachments/assets/a79ddee0-7c5c-485a-9605-6be1d50c22c6)
+
+![image](https://github.com/user-attachments/assets/879fcf99-4fdd-4221-950b-374dec142f48)
+
+Ao utilizar diferentes alfabetos destruimos a relación nas frecuencias de aparición que tiñan os monoalfabetos.
+Resistiu casi 300 anos de criptoanálisis polo que se chamou **a cifra indescifrable**
+
+Existen variantes do cifrado Vigenère:
+- Autoclave
+- Vernam
+- 
+
+
+### Autoclave
+
+Variante que unha vez chegase a última letra da clave continúase usando como clave do propio mensaxe
+![image](https://github.com/user-attachments/assets/e05abe53-8ef1-4e3d-90bd-b4940d852ded)
+
+### Vernam
+
+Propón usar unha clave aleatorio moi larga, con repetición. Funciona con bits en vez de letras (usabase no telegrafo e codificaba en 5 bit)
+Sigue o esquema chamado **cifrador de fluxo**.
+Para cifrar utiliza a función exor entre o mensaxe e unha clave, e para descifrar fai exor entre o mensaxe codificado e unha copia da clave.
+
+![image](https://github.com/user-attachments/assets/ae657c78-cda0-4fab-9e87-73c6e8e4ebdf)
+
+### One-Time Pad (OTP)
+
+É unha mellora ao Vernam. Ten como peculiaridad que a clave é aleatoria e debe ser tan larga como o mensaxe, para non repetirse. Ademais, a clave usase para cifrar e descifrar unha sola vez; despois descartase.
+
+**É un esquema irrompible** (*perfect secrecy*) xa que a súa salida non se relaciona co texto (equiprobabilidad, igualdad de tamaño entre mensaxe-alfabeto-codificación). A verdadeira seguridad reside na aleatoriedad da clave; aínda que, na práctica, é problemática esa xeneración de claves grandes
+
+# ALGORITMOS DE TRANSPOSICIÓN
+
+## Edad precientífica pt2
+### Escítala (Scytale)
+
+Mecanismo de cifrado que data do V a.C. Bastón en el que se enrollaba una cinta de cuero y luego se escribía
+en ella el mensaje de forma longitudinal
+ Para descifrar el criptograma y recuperar el mensaje en claro habrá
+que enrollar dicha cinta en un bastón con el mismo diámetro que el
+usado en el extremo emisor y leer el mensaje de forma longitudinal
+ La clave del sistema se encuentra en el diámetro del bastón
+ Cifrado por transposición
+
+### Rail Fence (zigzag cipher)
+
+Básase na escritura dunha M en ZigZag (distintas profundidades)
+El número de filas es la clave
+Lectura de M fila a fila
+Cifrado de transposición
+
+![image](https://github.com/user-attachments/assets/022120a9-fd8b-4fbc-bb51-8f3cd32da8e4)
+
+### Transposición de columnas
+
+Escritura de M en un rectángulo, fila por fila y leer el mensaje
+columna por columna, pero permutando el orden de las columnas
+ El orden de las columnas es la clave
+ Cifrado de transposición
+
+![image](https://github.com/user-attachments/assets/ae5a00d0-c767-4206-9a86-0ec0fc1aa9cc)
+
