@@ -175,3 +175,30 @@ columna por columna, pero permutando el orden de las columnas
 ## AES
 
 # Cifrado Asimétrico
+
+Basase no uso de dúas claves, unha clave pública e unha clave privada. A clave pública distribúese para o descifrado e a privada non. Debe ser inviable descifrar ca misma clave ca que se descifrou, descifrase ca inversa. De esta forma podemos conseguir aportar confidencialidad (si se cifra ca pública solo pode descifrar o que teña a privada do emisor) ou autenticación (o que cifre ca privada pódese descifrar ca pública, é dicir, calquera ademáis sendo el emisor inequivoco), e integridad (si o mensaje alterase, no se pode descifrar) con no repudio (firma digital, un emisor non pode negar haber cifrado un archivo ca súa clave privada)
+
+O primeiro algoritmo de cifrado exitoso e que cumple as propiedades é RSA, desarrollado no MIT por Ron Rivest, Shamir e Adleman
+
+## RSA
+
+É un cifrado de bloque no que o texto claro e o texto cifrado son enteiros entre 0 e n-1 para algún n (tipicamente 1024, actualmente 2048). Básase na exponenciación e consiste en:
+
+- Seleccionar dous numeros primos grandes p e q
+- Calculase n=p-q
+- Calculase fi(n)=(p-1)(q-1)
+- Seleccionase a clave e tal que 1 < e < fi(n), mcd(e,fi(n))=1
+- Obtener clave de descifrado d (co algoritmo de Euclides extendido):  e-d=1mod fi(n) y 0 <= d <= n
+- Clave publica : PU={e,n}
+- Clave Privada : PR={d,n}
+- DESTRUIR os numeros intermedios
+
+**COMO CIFRA**
+
+Texto plano M dividese en bloques de representación decimal < n (Si n = 187 o max sería -> 1011 1010 polo que con 8 bits non poderíamos collelos poderíamos pasasrno, habería que usar 7 bits)
+Fariamos M ^ e mod n
+
+**COMO DESCIFRA**
+
+Texto cifrado dividese en C bloques < n como antes.
+Fariamos C ^ d mod n
