@@ -164,3 +164,14 @@ columna por columna, pero permutando el orden de las columnas
 
 ![image](https://github.com/user-attachments/assets/ae5a00d0-c767-4206-9a86-0ec0fc1aa9cc)
 
+# Cifrado Simétrico
+
+## RC4
+
+## DES
+
+### 3DES
+
+## AES
+
+# Cifrado Asimétrico
