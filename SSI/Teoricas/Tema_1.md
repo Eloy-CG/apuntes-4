@@ -202,3 +202,7 @@ Fariamos M ^ e mod n
 
 Texto cifrado dividese en C bloques < n como antes.
 Fariamos C ^ d mod n
+
+## Diffie-Hellman
+
+Supón o mecanismo de intercambio de claves que se utiliza no cifrado asimétrico por un canal inseguro. Basase en logaritmos discretos, e a clave calculada pode usarse para despos cifrar os mensajes.
