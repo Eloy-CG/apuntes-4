@@ -205,4 +205,14 @@ Fariamos C ^ d mod n
 
 ## Diffie-Hellman
 
-Supón o mecanismo de intercambio de claves que se utiliza no cifrado asimétrico por un canal inseguro. Basase en logaritmos discretos, e a clave calculada pode usarse para despos cifrar os mensajes.
+Supón o mecanismo de intercambio de claves que se utiliza no cifrado asimétrico por un canal inseguro. Basase en lwdogaritmos discretos, e a clave calculada pode usarse para despos cifrar os mensajes.
+O algoritmo utiliza dous parámetros públicos: un número primo **p** e un generador **g** (número natural distinto de 0 e 1) que cumplen que **g < p** e **g é raíz primitiva de módulo p**. Tamén usan parámetros secretos para cada parte: a (1 < a < p) e b (1<b<p).
+
+Ejemplo:
+
+Parametros públicos -> p = 23
+                       g = 17
+A:11
+B:6
+
+A ambos doulle a clave de sesión S = 12 (esto sí sería secreto obviamente)
