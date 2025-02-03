@@ -1,8 +1,8 @@
 # Criterios de avaliación
 
 Teoría 50% -> 
-  Viernes 30 de Mayo 15 
-  Miercoles 25 de Junio
+- 1º OP : Viernes 30 de Mayo 15 
+- 2º OP : Miércoles 25 de Junio
 
 Prácticas 50% (recuperables) ->
 - "Opcionales" pero si non as fas perdes a nota JA JA
