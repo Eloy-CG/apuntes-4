@@ -14,3 +14,7 @@ Prácticas 50% (recuperables) ->
  
 
 HAY QUE APROBAR AS PRACTICAS E SACAR UN 4 NA TEORÍA (e que a media de un 5)
+
+
+# Tema 1: Despliegue y administración de infraestructura
+
